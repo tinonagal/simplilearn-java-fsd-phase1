@@ -18,10 +18,10 @@ public class EmailValidator {
 		List<String> emailList = new ArrayList<>();
 		emailList.add("abc@gmail.com");
 		emailList.add("def@outlook.com");
-		emailList.add("ghi@ohotmail.com");
+		emailList.add("ghi@hotmail.com");
 		emailList.add("jkl@yahoo.com");
 		
-		System.out.println("Email Addresses List: " + emailList);
+		System.out.println();
 		
 		EmailValidator emailValidator = new EmailValidator();
 		
@@ -36,12 +36,12 @@ public class EmailValidator {
 		
 			if(validEmailList.get(index).equals(userEmail)) {
 				
-				String status = userEmail + " is valid ";
+				String status = userEmail + " is a valid email";
 				return status;
 			}
 			
 		}
-		String status = userEmail + " is not valid ";
+		String status = userEmail + " is not a valid email";
 		
 		return status;
 		
