@@ -99,10 +99,10 @@ public class FixCode {
     	int enteredExpenditure = inputExpenditure.nextInt();
         int leng = arrayList.size();
         if (arrayList.contains(enteredExpenditure)) {
-        	System.out.println(enteredExpenditure + " is present in the Array");
+        	System.out.println(enteredExpenditure + " is present in the Array\n");
         }
         else {
-        	System.out.println("It is not present");
+        	System.out.println("It is not present\n");
         }
         //Used arrayList.contains to search for expense entered
     }
